@@ -1,0 +1,26 @@
+# MISC 
+.DS_Store
+.vscode
+.idea
+launch.json
+
+# Cache
+__pycache__
+
+# Intermediate Data
+/SimuLine/Preprocessing/Data
+/SimuLine/Preprocessing/UnbiasedEmbedding/data
+/SimuLine/Simulation/Data
+
+# Log
+/log
+/log_tensorboard
+/SimuLine/Preprocessing/UnbiasedEmbedding/logs
+
+# Results
+/Out
+/Image
+
+# Param & Intermediate Variables
+*.pth
+SimuLine-GlobalVariance-*.json
